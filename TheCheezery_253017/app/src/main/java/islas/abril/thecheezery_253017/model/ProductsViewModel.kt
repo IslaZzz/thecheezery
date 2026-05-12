@@ -7,7 +7,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import islas.abril.thecheezery_253017.data.DatabaseHelper
-import islas.abril.thecheezery_253017.data.ProductDAO
+import islas.abril.thecheezery_253017.data.dao.ProductDAO
 import islas.abril.thecheezery_253017.domain.Product
 
 class ProductsViewModel (databaseHelper: DatabaseHelper, context: Context): ViewModel(){
